@@ -1,5 +1,25 @@
 import React from "react";
 import "./Weather.css";
 export default function Weather() {
-  return <div className="Weather">Weather in New York is 5C</div>;
+  return (
+    <div className="Weather">
+      <h1>New York, USA</h1>
+      <ul>
+        <li>Saturday 11:05</li>
+        <li>Cloudly</li>
+      </ul>
+      <div className="row">
+        <div className="col-6">
+          <img src="image.png" />
+        </div>
+        <div className="col-6">
+          <ul>
+            <li>Humadity</li>
+            <li>Participitatiom</li>
+            <li>Speed of wind</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
 }
