@@ -6,8 +6,11 @@ export default function App() {
       <div className="container">
         <h1>Weather App</h1>
         <footer>
-          This project created by Olha Kolisnyk open-sourced in GitHub and
-          hosted by Netlify
+          This project created by Olha Kolisnyk{" "}
+          <a href="https://github.com/Olha1304/final-homework-5.git">
+            open-sourced in GitHub{" "}
+          </a>
+          and hosted by Netlify
         </footer>
       </div>
     </div>
