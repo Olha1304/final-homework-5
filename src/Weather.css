@@ -1,3 +1,6 @@
 .Weather {
-  background-color: blue;
+  border: 1px solid #dadde1;
+  text-align: start;
+  margin-top: 50px;
+  max-width: 600px;
 }
