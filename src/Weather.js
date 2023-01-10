@@ -12,8 +12,7 @@ export default function Weather(props) {
       humidity: response.data.temperature.humidity,
       date: "Saturday 11:05",
       description: response.data.condition.description,
-      iconUrl:
-        "https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png",
+      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
       wind: response.data.wind.speed,
       city: response.data.name,
     });
