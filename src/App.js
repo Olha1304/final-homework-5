@@ -11,7 +11,9 @@ export default function App() {
           <a href="https://github.com/Olha1304/final-homework-5.git">
             open-sourced in GitHub{" "}
           </a>
-          and hosted by Netlify
+          <a href="https://courageous-capybara-e1a027.netlify.app">
+            and hosted by Netlify
+          </a>
         </footer>
       </div>
     </div>
