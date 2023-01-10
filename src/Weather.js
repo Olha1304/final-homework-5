@@ -14,7 +14,7 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       iconUrl:
         "https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png",
-      wind: response.data.main.wind.speed,
+      wind: response.data.wind.speed,
       city: response.data.name,
     });
   }
@@ -67,7 +67,7 @@ export default function Weather(props) {
       </div>
     );
   } else {
-    const apiKey = "8bec159a2132e758bdo01843fdtc7d40";
+    const apiKey = "01e46354deb001891534851a549d94bd";
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${props.defaultCity}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
     return "Loading...";
