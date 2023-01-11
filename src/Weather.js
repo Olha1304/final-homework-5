@@ -8,13 +8,14 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
-      temperature: response.data.temperature.current,
-      humidity: response.data.temperature.humidity,
-      date: "Saturday 11:05",
-      description: response.data.condition.description,
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+      icon: response.data.weather[0].icon,
+      temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       city: response.data.name,
+      date: new Date(response.data.dt * 1000),
+      humidity: response.data.main.humidity,
+      imgUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      description: response.data.weather[0].description,
     });
   }
 
