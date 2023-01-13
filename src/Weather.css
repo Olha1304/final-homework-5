@@ -4,3 +4,10 @@
   margin-top: 50px;
   max-width: 600px;
 }
+.Weather canvas {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+  margin-left: 30px;
+  display: inline-block;
+}
