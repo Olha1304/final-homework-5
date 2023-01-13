@@ -1,0 +1,14 @@
+.temperature {
+  font-size: 40px;
+}
+
+.WeatherTemperature {
+  margin-left: 120px;
+  margin-top: -65px;
+}
+
+.unit {
+  display: block;
+  margin-left: 45px;
+  margin-top: -50px;
+}

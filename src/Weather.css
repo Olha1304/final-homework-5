@@ -3,6 +3,7 @@
   text-align: start;
   margin-top: 50px;
   max-width: 600px;
+  padding-bottom: 30px;
 }
 .Weather canvas {
   height: 64px;
